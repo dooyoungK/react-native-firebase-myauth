@@ -35,10 +35,11 @@ Set up configuration file for firebase.
 
 -------------
 
-* Run the app
+Run the app
 For iOS,
 
     react-native run-ios
+    
     react-native run-ios --device "[YOUR_DEVICE_NAME]"
 
 or manually open Xcode, and run on designated device.
