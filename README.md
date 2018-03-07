@@ -21,7 +21,7 @@ If you don't have react-native-cli tool, I recommend to install node first. (htt
 
 Before running the app, open terminal and run these commands for library dependencies.
     
-    react-native install
+    npm install
     react-native link
 
 Set up configuration file for firebase.
@@ -36,16 +36,15 @@ Set up configuration file for firebase.
 -------------
 
 Run the app
-For iOS,
 
-    react-native run-ios
-    
+iOS
+
+    react-native run-ios    
     react-native run-ios --device "[YOUR_DEVICE_NAME]"
 
 or manually open Xcode, and run on designated device.
 
-For android, (Should connected emulator or device is running)
+Android (Should connected emulator or device is running)
 
     react-native run-android
-
 
